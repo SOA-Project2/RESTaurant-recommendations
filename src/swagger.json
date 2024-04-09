@@ -6,7 +6,7 @@
       "description": "API documentation "
     },
     "paths": {
-      "/recommendation/custom": {
+      "/custom": {
         "get": {
           "summary": "Get meal paring recommendations according to our Food Pairing Database",
           "parameters": [
