@@ -8,21 +8,11 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LuisPeMoraRod/SOA-Project1.git"
-  },
   "keywords": [
     "REST",
     "nodeJS",
     "express"
   ],
-  "author": "LuisPeMoraRod",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LuisPeMoraRod/SOA-Project1/issues"
-  },
-  "homepage": "https://github.com/LuisPeMoraRod/SOA-Project1#readme",
   "dependencies": {
     "express": "^4.18.2",
     "morgan": "^1.10.0",
