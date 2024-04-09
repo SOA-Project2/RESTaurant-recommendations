@@ -7,7 +7,7 @@ const swaggerDocument = require('./swagger.json');
 const app = express(); //Main express app
 const router = express.Router(); 
 
-app.use('/sw', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use(morgan("tiny")); //Log request
 
