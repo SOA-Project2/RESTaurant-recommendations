@@ -20,7 +20,7 @@ const queryValidatorMiddleware = (req, res, next) => {
       return next(err);
     }
 
-    if (queryParamsValues.some(value => typeof value !== 'string' || !/^[a-zA-Z]+$/.test(value))) {
+    if (queryParamsValues.some(value => typeof value !== 'string' || !/^[a-zA-Z\s]+$/.test(value))) {
       const err = new Error("Invalid query parameters. Values must contain only letters.");
       err.status = statusCodes.BAD_REQUEST;
       return next(err);
